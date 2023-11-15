@@ -1,3 +1,5 @@
+#Prueba del algoritmo de la mochila 
+#Pero con vehiculos para el proyecto
 def distribuir_objetos(num_vehiculos, capacidades_vehiculos, num_objetos, pesos_objetos):
     vehiculos = {i + 1: {'capacidad': capacidades_vehiculos[i], 'objetos': []} for i in range(num_vehiculos)}
     
